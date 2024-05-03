@@ -1,4 +1,4 @@
 [submodule "app/jni/src"]
 	path = app/jni/src
 	url = https://github.com/Algiuxs/sm64-port-android.git
-	branch = ex/nightly
+	branch = master

@@ -13,7 +13,7 @@ It has cross-platform Touch Controls, Audio works, it saves the game to the app'
 ## Android
 Follow instructions [here](https://github.com/VDavid003/sm64-port-android/tree/master)!
 
-(please note that building on Android is currently incomplete)
+(please note that building on Android is currently not working, because of termux 2023 updates.)
 
 ## Linux
 

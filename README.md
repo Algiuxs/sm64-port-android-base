@@ -13,7 +13,7 @@ This depends on your distro, but if you can build the PC port and you have Andro
 
 **Clone the repository:**
 ```sh
-git clone --recursive https://github.com/VDavid003/sm64-port-android-base --branch sm64ex_nightly
+git clone --recursive https://github.com/Algiuxs/sm64-port-android-base --branch sm64ex_nightly
 cd sm64-port-android-base
 ```
 
@@ -54,7 +54,7 @@ You'll need everything you need to make Windows builds (not just vanilla sm64 on
 
 **Clone the repository:**
 ```sh
-git clone --recursive https://github.com/VDavid003/sm64-port-android-base --branch sm64ex_nightly
+git clone --recursive https://github.com/Algiuxs/sm64-port-android-base --branch sm64ex_nightly
 ```
 
 **Copy in your baserom:**
@@ -87,7 +87,7 @@ gradlew.bat assembleDebug
 
 **Clone the repository:**
 ```sh
-git clone --recursive https://github.com/VDavid003/sm64-port-android-base --branch sm64ex_nightly
+git clone --recursive https://github.com/Algiuxs/sm64-port-android-base --branch sm64ex_nightly
 ```
 
 **Create the build image:**

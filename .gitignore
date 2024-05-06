@@ -3,3 +3,5 @@ app/jni/SDL/src
 .gradle
 app/build
 app/.externalNativeBuild
+.vscode/settings.json
+.vscode/settings.json

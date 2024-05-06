@@ -4,4 +4,4 @@ app/jni/SDL/src
 app/build
 app/.externalNativeBuild
 .vscode/settings.json
-.vscode/settings.json
+

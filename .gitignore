@@ -6,3 +6,7 @@ app/.externalNativeBuild
 .vscode/settings.json
 app/.cxx
 local.properties
+.idea/gradle.xml
+.idea/migrations.xml
+.idea/misc.xml
+.idea/vcs.xml

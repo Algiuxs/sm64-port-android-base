@@ -4,4 +4,5 @@ app/jni/SDL/src
 app/build
 app/.externalNativeBuild
 .vscode/settings.json
-
+app/.cxx
+local.properties

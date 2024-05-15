@@ -10,3 +10,5 @@ local.properties
 .idea/migrations.xml
 .idea/misc.xml
 .idea/vcs.xml
+.idea/compiler.xml
+.idea/deploymentTargetSelector.xml

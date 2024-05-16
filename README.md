@@ -128,7 +128,7 @@ ls -al ./app/build/outputs/apk/debug/app-debug.apk
 # Configuration
 If you want to customize the build with build options, you should make the native build with those options first (put them after the make command like on normal repos), then before performing the Android build, edit `app/jni/src/Android.mk` and enable the options you'd like.
 
-## EXTERNAL_DATA option **DOESNT WORK ON ANDROID 11+**
+## EXTERNAL_DATA option, **DOESNT WORK ON ANDROID 11+**
 If you use `EXTERNAL_DATA`, you'll find a zip named `base.zip` in `app/jni/src/build/<version>_pc/res`.
 
 You should take this zip and put it in `Internal Storage/Android/data/com.Algiuxs.sm64port/files/res`

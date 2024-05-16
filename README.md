@@ -131,7 +131,7 @@ If you want to customize the build with build options, you should make the nativ
 ## EXTERNAL_DATA option
 If you use `EXTERNAL_DATA`, you'll find a zip named `base.zip` in `app/jni/src/build/<version>_pc/res`.
 
-You should take this zip and put it in `Internal Storage/Android/data/com.vdavid003.sm64port/files/res`
+You should take this zip and put it in `Internal Storage/Android/data/com.Algiuxs.sm64port/files/res`
 
 ## Render96/Other DynOS models instructions
 The 60fps patch is strongly recommended as it not only makes the game look smoother but doubles the performance as well with VSync on.
@@ -145,17 +145,17 @@ Sometimes turning VSync on is problematic, so if you have the game already insta
 **Apply the DynOS patch and the 60fps patch:**
 ```sh
 cd app/jni/src
-git apply enhancements/DynOS.1.0.patch
-git apply enhancements/60fps_ex.patch
+tools/apply_patch.sh enhancements/DynOS.1.0.patch
+tools/apply_patch.sh enhancements/60fps_ex.patch
 cd ../../..
 ```
 
 **Continue with the normal instructions and build and install the game.**
 
 **Follow the instructions for EXTERNAL_DATA**
+**DOESNT WORK ON ANDROID 11+**
+**Create `Internal Storage/Android/data/com.Algiuxs.sm64port/files/dynos/packs` directory**
 
-**Create `Internal Storage/Android/data/com.vdavid003.sm64port/files/dynos/packs` directory**
-
-**Extract the Render96 DynOS zip file to `Internal Storage/Android/data/com.vdavid003.sm64port/files/dynos/packs`**
+**Extract the Render96 DynOS zip file to `Internal Storage/Android/data/com.Algiuxs.sm64port/files/dynos/packs`**
 
 **Enable the model pack using DynOS**

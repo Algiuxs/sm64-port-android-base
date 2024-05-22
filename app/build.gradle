@@ -19,7 +19,7 @@ android {
         versionName "1.1"
         externalNativeBuild {
             ndkBuild {
-                arguments "-j4", "APP_PLATFORM=android-21"
+                arguments "-j5"
                 abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
             }
             // cmake {

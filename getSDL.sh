@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SDL2_VERSION="2.26.5"
+SDL2_VERSION="2.0.12"
 
 pushd app/jni/SDL
 
@@ -12,7 +12,7 @@ mv SDL2-${SDL2_VERSION}/include include
 #MSYS2's symlinks seem to just copy the folder which isn't really a good thing recursively. Native symlinks are broken for me so let's just use Windows's implementation
 if [[ -n "$WINDIR" ]]; then
     cmd <<< "mklink /D include\SDL2 ."
-    echo "if mklink failed, you need to excecute the "mklink /D include\SDL2 ." command at the root of the project as administrator in windows command prompt."
+    echo "if mklink failed, you need to excecute the command at the root of the project as administrator in windows command prompt."
 else
     ln -s . include/SDL2
 fi

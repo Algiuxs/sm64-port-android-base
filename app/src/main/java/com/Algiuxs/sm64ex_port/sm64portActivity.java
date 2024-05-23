@@ -1,4 +1,4 @@
-package com.vdavid003.sm64port;
+package com.Algiux.sm64ex_port;
 
 import org.libsdl.app.SDLActivity;
 

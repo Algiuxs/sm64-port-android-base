@@ -13,8 +13,6 @@ It has cross-platform Touch Controls, Audio works, it saves the game to the app'
 ## Android
 Follow instructions [here](https://github.com/Algiuxs/sm64-port-android/tree/master)!
 
-(please note that external data on Android 11+ is currently not working.)
-
 ## Linux
 
 **Install dependencies:**
